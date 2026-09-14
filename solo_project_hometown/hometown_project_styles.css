@@ -1,0 +1,29 @@
+
+#homepage {
+    width: 34vw;
+    height: 94vh;
+    margin: 2vh auto;
+    border-radius: 1vh;
+    box-shadow: 0 0 10px darkgrey;
+    padding: 1vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url("./images/mantua_view.webp");
+    object-fit: contain;
+    border-radius: 1vh 1vh 0 0;
+}
+
+.subunit {
+    flex-basis: 33.33%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Italiana", serif;
+    color: white;
+    
+}
